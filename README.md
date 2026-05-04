@@ -28,5 +28,6 @@ ESS341_project/
 │   ├── raw/
 
 │   └── processed/
+
 ├── notebooks/              
 └── outputs/                
