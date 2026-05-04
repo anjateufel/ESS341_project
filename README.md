@@ -20,6 +20,7 @@ First the exact repository structure should be copied. To the folder d so that l
 Repository structure:
 
 ESS341_project/
+
 ├── README.md               
 ├── .gitignore              
 ├── environment.yml         
