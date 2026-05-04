@@ -15,14 +15,18 @@ The required software and all libraries are listed in the environment.yml file t
 ***
 ## Execution Order
 ***
-First the exact repository structure should be copied so that loading the datasets can work out seamlessly. After that the cells in the change_detection.ipynb notebook should be run in the existing order from top to bottom. The notebook can be found in the project folder under notebooks/
+First the exact repository structure should be copied. To the folder d so that loading the datasets can work out seamlessly. After that the cells in the change_detection.ipynb notebook should be run in the existing order from top to bottom. The notebook can be found in the project folder under notebooks/
+
 Repository structure:
+
 ESS341_project/
 ├── README.md               
 ├── .gitignore              
 ├── environment.yml         
-├── data/                   
+├── data/ 
+
 │   ├── raw/
+
 │   └── processed/
 ├── notebooks/              
 └── outputs/                
