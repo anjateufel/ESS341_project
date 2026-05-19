@@ -1,21 +1,18 @@
-name: ESS341_project
+name: SDS210_project
 channels:
   - conda-forge
 
 dependencies:
   # Core
-  - python=3.12          # stable version pinned, conda-forge will resolve compatible versions of the packages below
+  - python=3.12          
   - numpy
   - pandas
   - matplotlib
 
-
-  # Notebook environment
   - jupyterlab
   - ipykernel
   - jupyterlab_widgets
 
-  # Geospatial stack
   - geopandas
   - rasterio
 
